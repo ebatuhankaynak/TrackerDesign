@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_note_add_black_24dp"
+            android:title="Todo List" />
+        <item
+            android:id="@+id/nav_daily_reports"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Daily Reports" />
+        <item
+            android:id="@+id/nav_averages"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Averages" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_bug"
+                android:icon="@drawable/ic_bug_report_black_24dp"
+                android:title="Bug Report" />
+        </menu>
+    </item>
+
+</menu>

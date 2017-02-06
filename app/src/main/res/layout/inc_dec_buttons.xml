@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@id/view2"
+    android:id="@+id/estTimeLinearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_todo_est"
+            android:id="@+id/todoEstimateTextView"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyleSmall"
+            android:id="@+id/todoDecButton"
+            android:text="-"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/todoIncDecTextView"
+            android:textSize="20dp"
+            android:text="0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/todoMinsTextView"
+            android:textSize="20dp"
+            android:text="@string/todo_mins"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/todoIncButton"
+            style="?android:attr/buttonStyleSmall"
+            android:text="+"/>
+
+</LinearLayout>

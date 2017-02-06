@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow
+        android:layout_width="wrap_content"/>
+        <LinearLayout>
+            <ImageView
+                android:id="@+id/listImageView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/listTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="14"/>
+
+            <TextView
+                android:id="@+id/listPercentageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/listOngoingImageView"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+</TableLayout>
